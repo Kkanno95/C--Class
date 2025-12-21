@@ -153,6 +153,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Parts\Part01.cpp" />
+    <ClCompile Include="Parts\Part02.cpp" />
+    <ClInclude Include="Parts\Part02.h" />
     <ClInclude Include="Parts\PartList.h" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

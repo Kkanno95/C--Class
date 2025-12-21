@@ -3,7 +3,8 @@
 
 int main()
 {
-	Part01 part01;
+	//Part01 part01;
+	Part02 part2;
 
 	return 0;
 }
