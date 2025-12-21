@@ -3,11 +3,20 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="Parts\Part01.cpp" />
+    <ClCompile Include="Parts\Part01.cpp">
+      <Filter>Part01</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="Parts\Part01.h" />
     <ClInclude Include="Parts\PartList.h" />
+    <ClInclude Include="Parts\Part01.h">
+      <Filter>Part01</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Part01">
+      <UniqueIdentifier>{aebfee93-15ec-4777-bf50-6df244d23692}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

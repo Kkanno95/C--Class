@@ -3,5 +3,7 @@
 
 int main()
 {
+	Part01 part01;
+
 	return 0;
 }
