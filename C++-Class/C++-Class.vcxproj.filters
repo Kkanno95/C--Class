@@ -12,6 +12,9 @@
     <ClCompile Include="Parts\Part03.cpp">
       <Filter>Part03</Filter>
     </ClCompile>
+    <ClCompile Include="Parts\Part04.cpp">
+      <Filter>Part04</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -25,6 +28,9 @@
     <ClInclude Include="Parts\Part03.h">
       <Filter>Part03</Filter>
     </ClInclude>
+    <ClInclude Include="Parts\Part04.h">
+      <Filter>Part04</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Part01">
@@ -35,6 +41,9 @@
     </Filter>
     <Filter Include="Part03">
       <UniqueIdentifier>{d840cca7-607d-4af9-a6ce-31bbadf26f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Part04">
+      <UniqueIdentifier>{69124f13-653e-41ed-b2d3-ca0dbfdfd315}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -156,8 +156,10 @@
     <ClCompile Include="Parts\Part02.cpp" />
     <ClInclude Include="Parts\Part02.h" />
     <ClInclude Include="Parts\Part03.h" />
+    <ClInclude Include="Parts\Part04.h" />
     <ClInclude Include="Parts\PartList.h" />
     <ClCompile Include="Parts\Part03.cpp" />
+    <ClCompile Include="Parts\Part04.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
