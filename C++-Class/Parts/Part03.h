@@ -22,7 +22,8 @@ public:
 	Player(int id, int hp, int atk) // 이니셜라이져
 		: id(id), hp(hp), atk(atk)
 	{
-		
+		ptr = new int(5);
+		arr = new int[5];
 	}
 
 	// 복사 생성자
@@ -33,15 +34,7 @@ public:
 	}
 
 	// 대입 연산자(연산자 오버로딩)
-	Player& operator=(const Player& other)
-	{
-		hp = other.hp;
-		atk = other.atk;
-
-		cout << "복사 할당 연산자 호출!\n";
-
-		return *this;
-	} 
+	Player& operator=(const Player& other);
 
 	Player(Player&& other) noexcept
 		: id(other.id), hp(other.hp), atk(other.atk)
@@ -50,7 +43,11 @@ public:
 	}
 
 	// 소멸자
-	~Player() {};
+	~Player() 
+	{
+		SAFE_DELETE(ptr);
+		SAFE_DELETE_ARRAY(ptr);
+	};
 
 public:
 	int GetHP() { HPReadCount++; return this->hp; } const
@@ -62,4 +59,7 @@ private:
 
 	const int id;
 	mutable int HPReadCount = 0;
+
+	int* ptr = nullptr;
+	int* arr = nullptr;
 };
